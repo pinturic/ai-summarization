@@ -29,6 +29,10 @@ STYLES = {
         "style": "Return your response as detailed summary which covers the main points of the text and key facts and figures.",
         "trigger": "DETAILED SUMMARY",
     },
+    "List And Details": {
+        "style": "Return your response as numbered list which covers the main points of the text and key facts and figures; for each of the points Return your response as detailed summary which covers the main points of the text and key facts and figures.",
+        "trigger": "NUMBERED LIST SUMMARY WITH KEY POINTS AND FACTS AND FOR EACH POINT GIVE DETAILED SUMMARY",
+    },
 }
 
 LANGUAGES = ["Default", "English", "Polish", "Portuguese",
