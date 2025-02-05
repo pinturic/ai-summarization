@@ -31,12 +31,16 @@ STYLES = {
     },
     "List And Details": {
         "style": "Return your response as numbered list which covers the main points of the text and key facts and figures; for each of the points Return your response as detailed summary which covers the main points of the text and key facts and figures.",
-        "trigger": "NUMBERED LIST SUMMARY WITH KEY POINTS AND FACTS AND FOR EACH POINT GIVE DETAILED SUMMARY",
+        "trigger": "NUMBERED LIST SUMMARY WITH KEY POINTS AND FACTS AND FOR EACH POINT GIVE WHO IS WORKING ON IT THE DETAILED SUMMARY AND THE ACTIONS",
+    },
+    "Confluence Page": {
+        "style": "Return your response as afull detailed confluence page.",
+        "trigger": "CONFLUENCE PAGE",
     },
 }
 
 LANGUAGES = ["Default", "English", "Polish", "Portuguese",
-             "Spanish", "Czech", "Turkish", "French", "German", ]
+             "Spanish", "Czech", "Turkish", "French", "German", "Italian"]
 
 # Model params
 MODEL_FILE = "./models/mistral-7b-openorca.Q5_K_M.gguf"
