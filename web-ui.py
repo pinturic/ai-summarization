@@ -34,8 +34,12 @@ STYLES = {
         "trigger": "NUMBERED LIST SUMMARY WITH KEY POINTS AND FACTS AND FOR EACH POINT GIVE WHO IS WORKING ON IT THE DETAILED SUMMARY AND THE ACTIONS",
     },
     "Confluence Page": {
-        "style": "Return your response as afull detailed confluence page.",
+        "style": "Return your response as a detailed confluence page.",
         "trigger": "CONFLUENCE PAGE",
+    },
+    "Detailed Confluence Page": {
+        "style": "Return your response as a very detailed confluence page.",
+        "trigger": "DETAILED CONFLUENCE PAGE",
     },
 }
 
